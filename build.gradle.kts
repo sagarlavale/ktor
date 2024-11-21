@@ -40,4 +40,7 @@ dependencies {
     implementation("io.ktor:ktor-server-config-yaml-jvm")
     testImplementation("io.ktor:ktor-server-test-host-jvm")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version")
+    testImplementation("io.kotest:kotest-runner-junit5:5.0.0")
+    testImplementation("io.kotest:kotest-assertions-core:5.0.0")
+    testImplementation("io.kotest:kotest-framework-engine:5.0.0")
 }
